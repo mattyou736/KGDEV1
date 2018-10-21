@@ -89,6 +89,7 @@ public class Player : MonoBehaviour
     public void Die() {
         manager.winOpponent = true;
         canMove = false;
+        anim.SetBool("dead", true);
     }
 
 

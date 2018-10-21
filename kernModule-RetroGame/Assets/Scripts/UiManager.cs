@@ -36,7 +36,7 @@ public class UiManager : MonoBehaviour {
 
         string timemin = ((int)time / 60).ToString();
 
-        string timeSeconds = (time % 60).ToString();
+        string timeSeconds = ((int)time % 60).ToString();
 
         time -= Time.deltaTime;
 
